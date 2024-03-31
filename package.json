@@ -1,0 +1,14 @@
+{
+  "name": "dyndns2-route53-lambda",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "AGPL",
+  "author": {
+    "name": "Tim Lopez",
+    "email": "timothy.lopez38@gmail.com"
+  },
+  "dependencies": {
+    "@aws-sdk/client-route-53": "^3.540.0",
+    "@pulumi/aws": "^6.28.2"
+  }
+}
