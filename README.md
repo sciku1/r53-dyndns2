@@ -4,7 +4,7 @@ Simple (and a little naive) implementation of dyndns2 protocol using AWS Lambda 
 
 ## Purpose
 
-This is a simple implementation of dyndns2 protocol using AWS Lambda + Route 53, deployed using SST. It's very basic, but if you own a domain name and are using a dns provider that does not support dyndns2 protocol or [previously supported and does not anymore](https://support.squarespace.com/hc/en-us/articles/17131164996365-About-the-Google-Domains-migration-to-Squarespace#toc-does-squarespace-support-dynamic-dns--ddns--) this can be a good option.
+This is a simple implementation of dyndns2 protocol using AWS Lambda + Route 53, deployed using SST. It's very basic, but if you own a domain name and are using a dns provider that does not support dyndns2 protocol or [previously supported and does not anymore](https://support.squarespace.com/hc/en-us/articles/17131164996365-About-the-Google-Domains-migration-to-Squarespace#toc-does-squarespace-support-dynamic-dns--ddns--) this can be a good option. In theory, this should work with any client that supports dyndns2. If not, please file an issue.
 
 ### Requirements
 
